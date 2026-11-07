@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS mixes (id TEXT PRIMARY KEY, clips TEXT NOT NULL, expires INTEGER NOT NULL);
+CREATE INDEX IF NOT EXISTS mixes_expiry ON mixes(expires);

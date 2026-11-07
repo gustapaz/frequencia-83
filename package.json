@@ -1,0 +1,1 @@
+{"name":"frequencia-83","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","start":"node scripts/local.mjs","test":"node --test tests/api.test.mjs","test:browser":"playwright test"},"dependencies":{"lit":"^3.3.3","zod":"^4.6.7"},"devDependencies":{"@playwright/test":"^1.65.0","esbuild":"^0.28.2"}}
